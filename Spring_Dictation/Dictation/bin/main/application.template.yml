@@ -2,10 +2,10 @@ server:
   port: 3003
 spring:
   datasource:
-    url: jdbc:mariadb://localhost:3307/db이름
-    driver-class-name: org.mariadb.jdbc.Driver
-    username: 이름
-    password: 사용자
+    url: jdbc:postgresql://localhost:5432/mydb
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
     
     
 servlet:
